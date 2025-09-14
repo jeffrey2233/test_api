@@ -1,0 +1,7 @@
+使用本專案前，請先啟動虛擬環境：
+
+在 PowerShell 輸入以下指令：
+
+.\.venv\Scripts\Activate
+
+啟動後再執行 Python 相關程式或安裝套件。
