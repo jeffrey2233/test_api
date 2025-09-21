@@ -1,7 +1,11 @@
 # Test API Project / API 測試專案
 
+<<<<<<< HEAD
 This is an **API testing project** using **pytest**. The project tests the [Pixegami Todo API](https://todo.pixegami.io/).
 這是一個使用 **pytest** 的 API 測試專案，主要測試 [Pixegami Todo API](https://todo.pixegami.io/)。
+=======
+API testing project using **pytest**. This project tests the [Pixegami Todo API](https://todo.pixegami.io/) including:
+>>>>>>> bdde985ee08120e99b5a4d4d6f0062a20ebca01e
 
 ## Features / 功能
 
@@ -14,6 +18,7 @@ This is an **API testing project** using **pytest**. The project tests the [Pixe
 
 ### 1. Clone the repository / 下載專案
 
+<<<<<<< HEAD
 ```bash
 git clone https://github.com/jeffrey2233/test_api.git
 cd test_api
@@ -86,3 +91,25 @@ pytest tests/test_auth.py::test_login
 ```
 
 * For debugging in VSCode, configure `launch.json` with `showReturnValue: true` / 在 VSCode 偵錯時，可在 `launch.json` 設定 `showReturnValue: true` 以顯示回傳值
+=======
+### 1. Clone the repository
+git clone https://github.com/jeffrey2233/test_api.git
+cd test_api
+
+### 2. Create a virtual environment
+python -m venv .venv
+
+### 3. Activate the virtual environment
+
+Windows:
+.venv\Scripts\activate
+
+Linux/macOS:
+source .venv/bin/activate
+
+### 4. Install dependencies
+pip install -r req.txt
+
+### 5. Run tests with pytest
+pytest
+>>>>>>> bdde985ee08120e99b5a4d4d6f0062a20ebca01e
