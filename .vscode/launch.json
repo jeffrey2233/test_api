@@ -7,11 +7,12 @@
             "request": "launch",
             "program": "${workspaceFolder}/.venv/Scripts/pytest.exe",
             "args": [
-                "tests"
+                "tests",
+                "-s", "-v"
             ],
             "console": "integratedTerminal",
             "justMyCode": true,
-            "env": {},
+            "cwd": "${workspaceFolder}",
             "envFile": "${workspaceFolder}/.env"
         }
     ]
